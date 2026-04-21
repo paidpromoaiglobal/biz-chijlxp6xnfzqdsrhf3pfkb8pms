@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#2C1A4E">
+<title>Flairs Signature Salon | Best Hair Salon &amp; Spa in Coimbatore</title>
+<meta name="description" content="Visit Flairs Signature Salon in Bharathipuram, Coimbatore — rated 4.8/5 by 491+ clients. Expert haircuts, hair spa, blow dry, styling &amp; beauty treatments. Open 7 days. Call 073569 70044.">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',sans-serif;color:#1e293b;background:#fff;-webkit-font-smoothing:antialiased}
+.wa-float{position:fixed;bottom:24px;right:24px;z-index:9999;background:#25d366;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,0.45);text-decoration:none;transition:transform .2s}.wa-float:hover{transform:scale(1.1)}
+nav{position:fixed;top:0;left:0;right:0;z-index:900;background:rgba(255,255,255,.95);backdrop-filter:blur(12px);border-bottom:1px solid #e2e8f0;padding:0 5vw;display:flex;align-items:center;justify-content:space-between;height:60px}
+.nav-brand{font-weight:700;font-size:.98rem;color:#2C1A4E;max-width:55%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nav-cta{background:#2C1A4E;color:#fff;padding:9px 20px;border-radius:6px;text-decoration:none;font-size:.82rem;font-weight:600;flex-shrink:0}
+/* HERO */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;overflow:hidden}
+.hero-bg{position:absolute;inset:-15%;width:130%;height:130%;background-image:url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1600&q=85&fit=crop&auto=format');background-size:cover;background-position:center;will-change:transform}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(135deg,#2C1A4Ef2 0%,#F5E6F0dd 50%,#2C1A4E99 100%)}
+.hero-inner{position:relative;z-index:2;padding:90px 5vw 60px;color:#fff;max-width:640px}
+.hero-badges{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.hero-badge{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);padding:5px 13px;border-radius:50px;font-size:.76rem;font-weight:500;backdrop-filter:blur(4px)}
+.hero h1{font-size:clamp(1.9rem,5vw,3rem);font-weight:800;line-height:1.15;margin-bottom:16px;letter-spacing:-.02em}
+.hero p{font-size:clamp(.95rem,2.2vw,1.1rem);opacity:.88;line-height:1.68;margin-bottom:30px}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn-white{background:#fff;color:#2C1A4E;padding:14px 32px;border-radius:8px;text-decoration:none;font-weight:700;font-size:.93rem}
+.btn-ghost{background:rgba(255,255,255,.12);border:1.5px solid rgba(255,255,255,.5);color:#fff;padding:13px 26px;border-radius:8px;text-decoration:none;font-size:.93rem;font-weight:500}
+/* METRICS */
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);background:#f8fafc;border-bottom:1px solid #e2e8f0}
+.metric{padding:20px 12px;text-align:center;border-right:1px solid #e2e8f0}
+.metric:last-child{border:none}
+.metric-val{font-size:1.6rem;font-weight:800;color:#2C1A4E;line-height:1}
+.metric-lbl{font-size:.7rem;color:#94a3b8;text-transform:uppercase;letter-spacing:.07em;margin-top:4px}
+/* ABOUT */
+section{padding:60px 5vw}
+.container{max-width:960px;margin:0 auto}
+.sec-head{margin-bottom:36px}
+.sec-head h2{font-size:clamp(1.4rem,3vw,1.9rem);font-weight:800;color:#0f172a;margin-bottom:6px}
+.sec-head p{color:#64748b;font-size:.9rem}
+.about-grid{display:grid;grid-template-columns:1fr;gap:36px;align-items:center}
+@media(min-width:768px){.about-grid{grid-template-columns:1fr 1fr}}
+.about-img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px}
+.about-text h2{font-size:clamp(1.4rem,3vw,1.9rem);font-weight:800;color:#0f172a;margin-bottom:14px}
+.about-text p{color:#475569;line-height:1.8;margin-bottom:12px;font-size:.93rem}
+.hl-list{list-style:none;margin-top:14px}
+.hl-list li{padding:7px 0 7px 26px;position:relative;color:#334155;font-size:.87rem;border-bottom:1px solid #f1f5f9}
+.hl-list li:before{content:'✓';color:#C9A96E;position:absolute;left:0;font-weight:700}
+/* SERVICES */
+.services-bg{background:#f8fafc}
+.svc-grid{display:grid;grid-template-columns:1fr;gap:14px}
+@media(min-width:480px){.svc-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.svc-grid{grid-template-columns:repeat(3,1fr)}}
+.svc-card{background:#fff;border-radius:12px;padding:22px;border:1px solid #e2e8f0;position:relative;overflow:hidden;transition:transform .2s,box-shadow .2s}
+.svc-card:after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#2C1A4E,#C9A96E)}
+.svc-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.07)}
+.svc-card h3{font-weight:700;color:#0f172a;margin-bottom:8px;font-size:.95rem}
+.svc-card p{color:#64748b;font-size:.87rem;line-height:1.6}
+/* PARALLAX */
+.parallax-strip{position:relative;min-height:320px;display:flex;align-items:center;overflow:hidden}
+.pstrip-bg{position:absolute;inset:-20%;width:140%;height:140%;background-image:url('https://images.unsplash.com/photo-1556761175-b413da4baf72?w=1200&q=80&fit=crop&auto=format');background-size:cover;background-position:center;will-change:transform}
+.pstrip-overlay{position:absolute;inset:0;background:linear-gradient(135deg,#2C1A4Ef0,#F5E6F0cc)}
+.pstrip-content{position:relative;z-index:2;padding:48px 5vw;color:#fff;max-width:560px}
+.pstrip-content h2{font-size:clamp(1.5rem,3vw,2rem);font-weight:800;margin-bottom:12px}
+.pstrip-content p{opacity:.82;margin-bottom:26px;font-size:.95rem}
+/* GALLERY */
+.gallery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+@media(min-width:600px){.gallery-grid{grid-template-columns:repeat(3,1fr)}}
+.gallery-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px}
+/* REVIEWS */
+.reviews-bg{background:#0f172a}
+.rv-grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:32px}
+@media(min-width:640px){.rv-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.rv-grid{grid-template-columns:repeat(3,1fr)}}
+.rv-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:10px;padding:22px}
+.rv-stars{color:#fbbf24;margin-bottom:8px}
+.rv-text{color:rgba(255,255,255,.65);font-size:.89rem;line-height:1.7;font-style:italic;margin-bottom:12px}
+.rv-author{color:rgba(255,255,255,.4);font-size:.8rem;font-weight:600}
+/* CTA */
+.cta-strip{background:linear-gradient(135deg,#C9A96E,#2C1A4E);color:#fff;padding:60px 5vw;text-align:center}
+.cta-strip h2{font-size:clamp(1.5rem,3vw,2rem);font-weight:800;margin-bottom:12px}
+.cta-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:26px}
+.cb-w{background:#fff;color:#2C1A4E;padding:13px 28px;border-radius:8px;text-decoration:none;font-weight:700;font-size:.9rem}
+.cb-o{border:1.5px solid rgba(255,255,255,.5);color:#fff;padding:12px 26px;border-radius:8px;text-decoration:none;font-size:.9rem}
+footer{background:#020617;color:#475569;text-align:center;padding:22px;font-size:.78rem}
+</style>
+</head>
+<body>
+<nav>
+  <span class="nav-brand">Flairs Signature Salon</span>
+  <a href="https://wa.me/917356970044?text=Hi%20Flairs%20Signature%20Salon!%20I%20found%20you%20online%20and%20would%20like%20to%20book%20an%20appointment.%20Could%20you%20please%20let%20me%20know%20your%20availability%3F" class="nav-cta">💬 WhatsApp</a>
+</nav>
+<div class="hero">
+  <div class="hero-bg" id="hp"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-inner">
+    <div class="hero-badges">
+      <span class="hero-badge">⭐ 4.8/5</span>
+      <span class="hero-badge">Google Verified</span>
+      <span class="hero-badge">📍 Tamil Nadu 641037, India</span>
+    </div>
+    <h1>Where Every Visit Leaves You Flawless</h1>
+    <p>Experience premium hair care, spa treatments, and styling at Coimbatore's most trusted signature salon.</p>
+    <div class="hero-btns">
+      <a href="https://wa.me/917356970044?text=Hi%20Flairs%20Signature%20Salon!%20I%20found%20you%20online%20and%20would%20like%20to%20book%20an%20appointment.%20Could%20you%20please%20let%20me%20know%20your%20availability%3F" class="btn-white">Book Your Appointment Today</a>
+      <a href="tel:073569 70044" class="btn-ghost">📞 Call Now</a>
+    </div>
+  </div>
+</div>
+<div class="metrics">
+  <div class="metric"><div class="metric-val">4.8/5</div><div class="metric-lbl">Rating</div></div>
+  <div class="metric"><div class="metric-val">✓</div><div class="metric-lbl">Verified</div></div>
+  <div class="metric"><div class="metric-val">100%</div><div class="metric-lbl">Committed</div></div>
+</div>
+<section>
+  <div class="container">
+    <div class="about-grid">
+      <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEHwy16mO_5htKQG6RaJ5aH0i8DnLX8IX8n6gr8Mu_RsQWMpl028uJIJJcYniD2T_44iY3JMyYioUqFY8K95Bcc0sOgCjx53zCTeo4CCtdmI4-UJd7a3mDMoL6px1Xxftk-DhtrmVSXtraB9b2zSqVJaxNPGV1GG3iyshCycu2N-BqXaG3_4X4cTg9F5fX9Kzm2hswS1p__BO6o94mpQveKvOH1e8KACbKhyN5JvEsZ6xN5Aq4gWDaXOccEc1mmDHi-dJ32KaS_Nn4afs0zuds3AGqdKZ0Kq2Wji_lIj_eNAlg&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Flairs Signature Salon" class="about-img" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1600&q=85&fit=crop&auto=format'">
+      <div>
+        <div class="sec-head" style="margin-bottom:16px"><h2>About Flairs Signature Salon</h2></div>
+        <p style="color:#475569;line-height:1.8;margin-bottom:12px;font-size:.93rem">Flairs Signature Salon is Coimbatore's premier beauty destination, nestled in Bharathipuram along Avinashi Road. With a stellar 4.8-star rating backed by nearly 500 glowing reviews, we have earned the trust of our clients through exceptional craftsmanship, a calming ambiance, and personalized care that makes every visit feel truly special. From precision haircuts to luxurious spa treatments, we bring out the best version of you.</p><p style="color:#475569;line-height:1.8;margin-bottom:12px;font-size:.93rem">Our team of skilled stylists and beauty professionals are passionate about their craft and dedicated to understanding your unique needs. Whether you're walking in for a quick blow-dry or a full makeover, we ensure every service is delivered with warmth, attention to detail, and professional excellence. Open seven days a week, Flairs Signature Salon is your go-to sanctuary for beauty, relaxation, and confidence.</p>
+        <ul class="hl-list"><li>⭐ Rated 4.8/5 by 491+ happy clients in Coimbatore</li><li>✂️ Expert stylists offering personalized, professional consultations</li><li>🕙 Open 7 days a week from 10:00 AM for your convenience</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="services-bg">
+  <div class="container">
+    <div class="sec-head"><h2>Our Services</h2><p>Everything we offer</p></div>
+    <div class="svc-grid"><div class="svc-card"><h3>Haircut &amp; Styling</h3><p>Precision haircuts and customized styling tailored to your face shape and personality, delivering clean finishes you'll love.</p></div><div class="svc-card"><h3>Hair Wash &amp; Blow Dry</h3><p>Revitalize your hair with a professional wash and blow-dry session that leaves your locks smooth, shiny, and full of life.</p></div><div class="svc-card"><h3>Hair Spa</h3><p>Indulge in a deeply nourishing hair spa treatment designed to repair damage, restore shine, and rejuvenate your scalp.</p></div><div class="svc-card"><h3>Customized Hair Coloring</h3><p>Transform your look with expert hair coloring services, from subtle highlights to bold transformations, crafted just for you.</p></div><div class="svc-card"><h3>Layers &amp; Texture Cuts</h3><p>Add movement and dimension to your hair with our signature layered cuts, styled to enhance your natural beauty.</p></div><div class="svc-card"><h3>Spa &amp; Beauty Treatments</h3><p>Unwind with our relaxing spa and beauty services designed to refresh your mind, body, and skin from head to toe.</p></div></div>
+  </div>
+</section>
+<div class="parallax-strip">
+  <div class="pstrip-bg" id="ps"></div>
+  <div class="pstrip-overlay"></div>
+  <div class="pstrip-content">
+    <h2>Let's Work Together</h2>
+    <p>No.14, Bharathipuram, Avinashi Rd, opp. to Pressana Honda Service Centre Lakshmi Mills, Pudur, Coimbatore, Tamil Nadu 641037, India · Monday: 10:00 AM – 9:00 PM | Tuesday: 10:00 AM – 9:00 PM | Wednesday: 10:00 AM – 8:00 PM | Thursday: 10:00 AM – 9:00 PM | Friday: 10:00 AM – 9:00 PM | Saturday: 10:00 AM – 9:00 PM | Sunday: 10:00 AM – 9:00 PM</p>
+    <a href="https://wa.me/917356970044?text=Hi%20Flairs%20Signature%20Salon!%20I%20found%20you%20online%20and%20would%20like%20to%20book%20an%20appointment.%20Could%20you%20please%20let%20me%20know%20your%20availability%3F" style="background:#fff;color:#2C1A4E;padding:13px 28px;border-radius:8px;text-decoration:none;font-weight:700;display:inline-block">💬 WhatsApp Now</a>
+  </div>
+</div>
+<section><div class="container"><div class="sec-head"><h2>Our Work</h2><p>A glimpse of what we do</p></div><div class="gallery-grid"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEHwy16mO_5htKQG6RaJ5aH0i8DnLX8IX8n6gr8Mu_RsQWMpl028uJIJJcYniD2T_44iY3JMyYioUqFY8K95Bcc0sOgCjx53zCTeo4CCtdmI4-UJd7a3mDMoL6px1Xxftk-DhtrmVSXtraB9b2zSqVJaxNPGV1GG3iyshCycu2N-BqXaG3_4X4cTg9F5fX9Kzm2hswS1p__BO6o94mpQveKvOH1e8KACbKhyN5JvEsZ6xN5Aq4gWDaXOccEc1mmDHi-dJ32KaS_Nn4afs0zuds3AGqdKZ0Kq2Wji_lIj_eNAlg&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Flairs Signature Salon" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEFce7WDSYyiL-mqN9dqYo7rRX82a4LSqjtid0oRAniCL8YlD8k8CYlHvzso8vWZ9JB8-FlAA8vfOkughw1I4Vn85B87R5na7y6rxItQ4sFogJTVttonJMf7f1Ot6rDmiDeuZyTouFCsWj86Odc01b5rnvwDtpOWLY2O4Xiw9gnvcXeAP6ibJ5ZkXg2tDORU-7iQb8Sp0BzwOEBYFHjvJcPlM9ogxjruJi3bjLrQLJehTJNKFKt_i9F4LvgfP9t7oJw5M5UfiTwQTPodr8q4nhG1CmIoI1qYEFF2EPLP3nLFNA&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Flairs Signature Salon" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEETqmWgF2G_bulwim49SZ-6er0_hdKmBFAILdGyFQltKrhSg2fPXVnbsZKLRF8IATYLgTI27arnk8nc6xKuOzhOwMftt8eLn3T1CDV9-G8Rm2YP4MCsnjquiMLD_TTaecq_h5lJgN66C1JZsBuoWTCg0iTNihkG2dJvn6J6zpSx6po8uqEzEJdapFj4rKVXz_9bNZVk3O5C7zuHRek3gMp8WgZYcmGBrgba6_Ylxx92vJHzTMW5tDW4qPnZkxt8GJgXYdQRbNthAqqyxfoulp6i5GBLLRtPYNAwUACjOi_28g&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Flairs Signature Salon" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEHWo5HY5bxU6kESnuUqzOpTiqqPVAPz0G3mb1wQDPgP_RIJ6HRV9SQQpd0rzJ4smeGsg8esobnvpRLvE8ub_2otgXzB3b9uDXrhkYMvrwRYS_YjVEJc3skMo_ibh-Pl1XBSv5DHyQ3tjq0Z4BoURVu4qRgP2LR6JXgagBUckrWkcGjmJmeQZqart19OLEHyxSjRKcFTi2RHOg-G9RqINymW7lo2Fku48ECXoLBppNyNnOoLJllbYYo6h_V7KdnFsrIFSvPreIKj7u11usT-RuQYesaKc0ovm65QkJhyhYSQWA&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Flairs Signature Salon" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEEtjJ0K69Ckrb-B4TpDZXLLgh1kk7hY8_JI76ZL7bxv5kh5dFSywnNCJI69nGgNLJtQIwTDxX2XPTxZZZP8E1-G3lU_86-CNAFLyUZiKKps-cz_Vi7GZ_sgxOtf9F78mhZ1nko_8aTeP5KXpGmr6y3sPn8bEAsh54MEg1UbgflIrsgOljQWpNHqVylLEo2Et_ptInVwvirsshKDnJMWtDomCKlae0olBCWoerjFleIA1xDIfIQzSQUR0y8Df2Qt1mvQP5g-DIFQilF1g9JS0cmWwlRe1KytdP_maxZzPw4Qsw&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Flairs Signature Salon" loading="lazy" onerror="this.parentElement.remove()"></div></div></section>
+<section class="reviews-bg">
+  <div class="container">
+    <div class="sec-head"><h2 style="color:#fff">What People Say</h2><p style="color:rgba(255,255,255,.4)">Real reviews from our customers</p></div>
+    <div class="rv-grid"><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">"Their work feels like magic — everything felt calm and well taken care of. I really loved it!"</p><div class="rv-author">— Suhita S.</div></div><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">"Amazing haircut — it turned out even better than I expected. I really loved the style and the clean finish. Definitely coming back!"</p><div class="rv-author">— Anu Samynathan</div></div><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">"First time at Flairs and the overall experience was so good. Friendly hair stylist, hair spa and a customised haircut — felt like a settle moment, worth every penny!"</p><div class="rv-author">— Suba Shree</div></div><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">"Last month I had layers done here — it was really good. Suggested my friend and she also got her haircut here, it turned out so beautiful. Very professional, worth the money!"</p><div class="rv-author">— Nandhini V K</div></div></div>
+  </div>
+</section>
+<div class="cta-strip">
+  <div class="container">
+    <h2>Ready to Connect?</h2>
+    <p style="opacity:.82;max-width:440px;margin:0 auto;font-size:.95rem">No.14, Bharathipuram, Avinashi Rd, opp. to Pressana Honda Service Centre Lakshmi Mills, Pudur, Coimbatore, Tamil Nadu 641037, India</p>
+    <div class="cta-btns">
+      <a href="https://wa.me/917356970044?text=Hi%20Flairs%20Signature%20Salon!%20I%20found%20you%20online%20and%20would%20like%20to%20book%20an%20appointment.%20Could%20you%20please%20let%20me%20know%20your%20availability%3F" class="cb-w">💬 WhatsApp</a>
+      <a href="tel:073569 70044" class="cb-o">📞 073569 70044</a>
+      <a href="https://maps.google.com/?cid=7727891390319779204" class="cb-o">📍 Directions</a>
+    </div>
+  </div>
+</div>
+<footer>© 2026 Flairs Signature Salon · No.14, Bharathipuram, Avinashi Rd, opp. to Pressana Honda Service Centre Lakshmi Mills, Pudur, Coimbatore, Tamil Nadu 641037, India</footer>
+<a href="https://wa.me/917356970044?text=Hi%20Flairs%20Signature%20Salon!%20I%20found%20you%20online%20and%20would%20like%20to%20book%20an%20appointment.%20Could%20you%20please%20let%20me%20know%20your%20availability%3F" class="wa-float" title="Chat on WhatsApp" aria-label="WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<script>
+if(window.innerWidth>768){
+  const hp=document.getElementById('hp'),ps=document.getElementById('ps');
+  window.addEventListener('scroll',()=>{
+    const y=window.scrollY;
+    if(hp)hp.style.transform='translateY('+y*.3+'px)';
+    if(ps){const r=ps.closest('.parallax-strip').getBoundingClientRect();ps.style.transform='translateY('+(r.top*.2)+'px)'}
+  },{passive:true});
+}
+</script>
+</body></html>
